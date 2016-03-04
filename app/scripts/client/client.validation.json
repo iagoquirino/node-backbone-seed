@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/pivrm-01/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "id",
+      "type": "string"
+    },
+    "document": {
+      "id": "document",
+      "type": "string"
+    },
+    "fullname": {
+      "id": "fullname",
+      "type": "string"
+    },
+    "email": {
+      "id": "email",
+      "type": "string"
+    },
+    "gender": {
+      "id": "gender",
+      "type": "string"
+    },
+    "bithdate": {
+      "id": "bithdate",
+      "type": "string"
+    },
+    "user": {
+      "id": "user",
+      "type": "string"
+    },
+    "creationTime": {
+      "id": "creationTime",
+      "type": "string"
+    },
+    "lastUpdateTime": {
+      "id": "lastUpdateTime",
+      "type": "string"
+    },
+    "status": {
+      "id": "status",
+      "enum": [ "ACTIVE", "INACTIVE", "EXCLUDED"]
+    },
+    "address": {
+      "id": "address",
+      "type": "object",
+      "properties": {
+        "country": {
+          "id": "country",
+          "type": "string"
+        },
+        "state": {
+          "id": "state",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "fullname",
+    "document",
+    "email",
+    "gender",
+    "birthdate",
+    "user",
+    "status",
+    "address"
+  ]
+}

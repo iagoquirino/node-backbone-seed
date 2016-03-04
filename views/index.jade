@@ -1,0 +1,4 @@
+extends layout
+
+block content
+  script $('body').prepend(new PROJECT.ApplicationView({ pageView: '#{pageViewName}' }).render().el);

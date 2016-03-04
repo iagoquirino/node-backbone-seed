@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "id",
+      "type": "string"
+    },
+    "action": {
+      "id": "action",
+      "type": "string"
+    },
+    "totalValue": {
+      "id": "totalValue",
+      "type": "number"
+    },
+    "netValue": {
+      "id": "netValue",
+      "type": "number"
+    },
+    "taxValue": {
+      "id": "taxValue",
+      "type": "number"
+    },
+    "user": {
+      "id": "user",
+      "type": "string"
+    },
+    "client": {
+      "id": "client",
+      "type": "string"
+    },
+    "status": {
+      "id": "status",
+      "enum": [ "ACTIVE", "INACTIVE", "EXCLUDED"]
+    },
+    "date": {
+      "id": "date",
+      "type": "string"
+    },
+    "lastUpdateTime": {
+      "id": "lastUpdateTime",
+      "type": "string"
+    },
+    "creationTime": {
+      "id": "creationTime",
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "user",
+    "client",
+    "date"
+  ]
+}

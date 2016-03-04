@@ -1,0 +1,6 @@
+[
+	"./public/javascripts/app/default/header.view.js",
+	"./public/javascripts/app/default/footer.view.js",
+	"./public/javascripts/app/index/index.view.js",
+	"./public/javascripts/app/default/application.view.js"
+]

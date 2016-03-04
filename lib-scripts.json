@@ -1,0 +1,6 @@
+[
+	"./public/javascripts/libs/jquery-2.1.4.min.js",
+	"./public/javascripts/libs/underscore-min.js",
+	"./public/javascripts/libs/backbone-min.js",
+	"./public/javascripts/libs/handlebars.runtime-v1.3.0.js"
+]
